@@ -1,0 +1,26 @@
+#page2bg {
+    max-width: 100%;
+    min-width: 100%;
+    height: 100vh;
+}
+
+#bgoverlay {
+    max-width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#profile {
+    max-width: 750px;
+    width: 100%;
+    max-height: 200px;;
+    height: 100%;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.8);
+}
