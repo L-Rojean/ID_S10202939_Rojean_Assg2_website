@@ -1,0 +1,74 @@
+#homebg {
+    max-width: 100%;
+    min-width: 100%;
+    height: 100vh;
+}
+
+#lollogo {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 100%;
+}
+
+#riotlogo {
+    position: absolute;
+    top: 92%;
+    left: 91.9%;
+    transform: translate(-50%, -50%);
+    max-width: 144px;
+    width: 100%;
+}
+
+#header {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Anton', sans-serif;
+    font-size: 65px;
+    color: yellow;
+    text-align: center;
+    width: 550px;
+}
+
+#searchbar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.7);
+    max-width: 550px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input {
+    width: 85%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+#searchbtn {
+    background: #ffec00;
+    width: 13%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+#searchbtn .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    font-size: 20px;
+}
