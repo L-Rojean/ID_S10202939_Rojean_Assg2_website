@@ -1,0 +1,22 @@
+{
+  "name": "id_s10202939_rojean_assg2_website",
+  "version": "1.0.0",
+  "description": "ID Assignment 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-Rojean/ID_S10202939_Rojean_Assg2_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L-Rojean/ID_S10202939_Rojean_Assg2_website/issues"
+  },
+  "homepage": "https://github.com/L-Rojean/ID_S10202939_Rojean_Assg2_website#readme",
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  }
+}
