@@ -2,21 +2,20 @@
 const Url="americas.api.riotgames.com"
 const Url="asia.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}" */
 
-function getInput() {
+function runAPI() {
     var ID = document.getElementById("input").value;
     console.log(ID);
-    var url = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/riotid?api_key=RGAPI-85dc592d-07f0-4068-8e20-0b821abfa388";
+    var url = "https://cors-anywhere.herokuapp.com/https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/riotid?api_key=RGAPI-bca63eaa-dcc7-4892-9be5-c828505abb75";
     var URL = url.replace("riotid", ID);
     console.log(URL);
-}
-
-function getRequest() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.open("GET","https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/scarra?api_key=RGAPI-85dc592d-07f0-4068-8e20-0b821abfa388", true);
-    xhttp.send();
-}
-
-function RunAllFunctions() {
-    getInput();
-    getRequest();
+    $.ajax({
+        url: URL,
+        type: "GET",
+        success: function(result){
+            console.log(result)
+        },
+        error: function(error){
+            console.log(`Error ${error}`)
+        }
+    })
 }
