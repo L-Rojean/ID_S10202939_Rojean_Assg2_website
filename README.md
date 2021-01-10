@@ -37,13 +37,13 @@ Lists of users:
     * JavaScript
     
 ## Testing
-Feature | Description | Task |
-Homepage | Users can input their League of Legends name in the searchbar | Pass |
-Region Selection | Users can select which region they play in | Fail |
-Profile | Displays the user's profile information | Fail |
-Match History | Displays the user's match history | Fail |
-In-game statistics | Displays the user's in-game statistics | Fail |
-
+| Feature            | Description                                                   | Task |
+| ------------------ | ------------------------------------------------------------- | ---- |
+| Homepage           | Users can input their League of Legends name in the searchbar | Pass |
+| Region Selection   | Users can select which region they play in                    | Fail |
+| Profile            | Displays the user's profile information                       | Fail |
+| Match History      | Displays the user's match history                             | Fail |
+| In-game statistics | Displays the user's in-game statistics                        | Fail |
 
 ## Credits
 ### Content
